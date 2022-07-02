@@ -1,0 +1,15 @@
+<div class="timer-container">
+    <div class="timer-center-block">
+        <div class="timer-gird-wrapper animate__animated animate__backInDown">
+            <div class="timer-grid-block"><h1>{{min}}<p>min.</p></h1></div>
+            <div class="timer-grid-block"><h1>{{sec}}<p>sec.</p></h1></div>
+        </div>
+    </div>
+    <div class="btn-wrapper">
+        <div class="btn-grid-block">
+            <button (click)='startTimer()'>Start Timer</button>
+            <button (click)='pauseTimer()'>Pause</button>
+            <button (click)='resetTimer()'>Reset</button>
+        </div>
+    </div>
+</div>
